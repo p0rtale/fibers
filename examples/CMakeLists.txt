@@ -1,0 +1,2 @@
+add_executable(thread_pool_example ThreadPoolExample.cpp)
+target_link_libraries(thread_pool_example fibers)
